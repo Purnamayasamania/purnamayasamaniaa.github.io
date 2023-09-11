@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Nama dan Tugas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .nama-box {
+            border: 2px solid #007bff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .nama {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .nim-kelas {
+            font-size: 18px;
+        }
+
+        .universitas {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #007bff;
+        }
+
+        .file-tugas {
+            margin-top: 20px;
+        }
+
+        .file-tugas input[type="file"] {
+            display: none;
+        }
+
+        .file-tugas label {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nama-box">
+            <div class="nama">Purnama</div>
+            <div class="nim-kelas">NIM: 2210015 | Kelas: RPL_3A</div>
+        </div>
+        <div class="universitas">UNIVERSITAS PENDIDIKAN INDONESIA</div>
+        <div class="file-tugas">
+            <input type="file" id="tugas" accept=".pdf, .doc, .docx">
+            <label for="tugas">TERUPLOAD✔</label>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PDF Viewer</title>
+</head>
+<body>
+    <div class="pdf-container">
+        <iframe src="d:\TUGAS-TUGAS SEMESTER 3\1. PEMODELAN PERANGKAT LUNAK\Jenis-jenis UML_2210015_Purnama.pdf" width="800" height="600"></iframe>
+    </div>
+</body>
+</html>

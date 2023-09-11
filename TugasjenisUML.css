@@ -1,0 +1,19 @@
+/* Reset some default styles for the body and iframe */
+body, iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Center the PDF container */
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the iframe if necessary */
+iframe {
+    border: 1px solid #ccc; /* Add a border for better visibility */
+}
